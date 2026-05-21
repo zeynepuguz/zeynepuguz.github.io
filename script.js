@@ -54,7 +54,7 @@ mobileMenu.querySelectorAll('a').forEach(a => {
 
 // --- TYPEWRITER EFFECT ---
 const phrases = [
-  'AI Engineer',
+  'AI Engineer (Backend)',
   'LLM & RAG Architect',
   'Multi-Agent Systems Builder',
   'NLP & ML Practitioner',
