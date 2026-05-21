@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zeynep Uğuz — AI Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#hero">ZU<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-sun" id="themeIcon"></i>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="grid-lines"></div>
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">Available for opportunities</div>
+      <h1>Hi, I'm <span class="gradient-text">Zeynep Uğuz</span></h1>
+      <div class="typewriter-wrap">
+        <span id="typewriter"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-desc">
+        AI Engineer building intelligent systems — RAG architectures, LLM-powered services,
+        multi-agent systems, and end-to-end ML pipelines that turn advanced AI into practical solutions.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/zeynepuguz" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/zeynepuguz" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://medium.com/@zeynepuguz" target="_blank" aria-label="Medium"><i class="fab fa-medium"></i></a>
+        <a href="mailto:zeynppuguzz4@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-avatar">
+      <div class="avatar-ring">
+        <img src="https://avatars.githubusercontent.com/u/122873468?v=4" alt="Zeynep Uğuz" />
+      </div>
+      <div class="float-tag tag1"><i class="fab fa-python"></i> Python</div>
+      <div class="float-tag tag2"><i class="fas fa-robot"></i> LLMs</div>
+      <div class="float-tag tag3"><i class="fas fa-database"></i> FastAPI</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">About Me</span>
+        <h2>Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm an <strong>AI Engineer</strong> currently pursuing my Software Engineering degree
+            at Kırklareli University (2022–present). I focus on building intelligent systems and
+            turning advanced AI technologies into practical, real-world solutions.
+          </p>
+          <p>
+            My work centers on LLMs, RAG architectures, multi-agent systems, NLP pipelines,
+            and end-to-end ML. I integrate AI deeply into applications — from data ingestion
+            and model training to API serving and agent orchestration.
+          </p>
+          <p>
+            I'm committed to continuous learning and have sharpened my skills through competitive
+            hackathons, TEKNOFEST national competitions, and internships at technology companies.
+          </p>
+          <div class="about-info">
+            <div class="info-item"><i class="fas fa-map-marker-alt"></i> Gebze / Kocaeli, Turkey</div>
+            <div class="info-item"><i class="fas fa-graduation-cap"></i> Software Engineering, Kırklareli University</div>
+            <div class="info-item"><i class="fas fa-language"></i> Turkish (Native) · English (B1) · German (A1)</div>
+            <div class="info-item"><i class="fab fa-github"></i> 30+ Public Repositories · 16 Followers</div>
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number">30+</span>
+            <span class="stat-label">GitHub Repos</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">3</span>
+            <span class="stat-label">Internships</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">3</span>
+            <span class="stat-label">Competition Awards</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">Years Coding</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Technical Skills</span>
+        <h2>What I Work With</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category skill-primary">
+          <div class="skill-cat-icon"><i class="fas fa-brain"></i></div>
+          <h3>AI & Machine Learning</h3>
+          <div class="tags">
+            <span class="tag">LLMs</span>
+            <span class="tag">RAG Architectures</span>
+            <span class="tag">Multi-Agent Systems</span>
+            <span class="tag">NLP</span>
+            <span class="tag">Computer Vision</span>
+            <span class="tag">Time Series Forecasting</span>
+            <span class="tag">Model Fine-Tuning</span>
+            <span class="tag">Feature Engineering</span>
+            <span class="tag">Hyperparameter Tuning</span>
+            <span class="tag">Chatbot Development</span>
+          </div>
+        </div>
+
+        <div class="skill-category skill-primary">
+          <div class="skill-cat-icon"><i class="fas fa-robot"></i></div>
+          <h3>LLMs & Agent Frameworks</h3>
+          <div class="tags">
+            <span class="tag">LangChain</span>
+            <span class="tag">LangGraph</span>
+            <span class="tag">FastMCP</span>
+            <span class="tag">OpenAI API</span>
+            <span class="tag">Hugging Face</span>
+            <span class="tag">Langflow</span>
+            <span class="tag">N8N</span>
+            <span class="tag">Prompt Engineering</span>
+            <span class="tag">Context Engineering</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-layer-group"></i></div>
+          <h3>ML Libraries</h3>
+          <div class="tags">
+            <span class="tag">PyTorch</span>
+            <span class="tag">TensorFlow</span>
+            <span class="tag">Scikit-learn</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">NumPy</span>
+            <span class="tag">Matplotlib</span>
+            <span class="tag">Seaborn</span>
+            <span class="tag">SHAP</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-code"></i></div>
+          <h3>Languages & APIs</h3>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">SQL</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">MSSQL</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">RESTful APIs</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-flask"></i></div>
+          <h3>ML Engineering</h3>
+          <div class="tags">
+            <span class="tag">End-to-End ML Pipelines</span>
+            <span class="tag">Model Evaluation</span>
+            <span class="tag">Experiment Tracking</span>
+            <span class="tag">Data Augmentation</span>
+            <span class="tag">Vector Embeddings</span>
+            <span class="tag">Jupyter Notebook</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-cloud"></i></div>
+          <h3>Infrastructure & Tools</h3>
+          <div class="tags">
+            <span class="tag">Docker</span>
+            <span class="tag">Linux</span>
+            <span class="tag">Git / GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Postman</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Experience</span>
+        <h2>My Journey</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Dec 2025 — Present</div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <div>
+                <h3>Mentee</h3>
+                <span class="tl-company">Koç Finansman Inc. — Istanbul, Turkey</span>
+              </div>
+              <span class="tl-badge ongoing">Ongoing</span>
+            </div>
+            <p class="tl-role">Turuncu Kanatlar Mentorship Program</p>
+            <p class="tl-desc">
+              Selected as a mentee in a competitive program focused on technology, innovation, and
+              data-driven career development. Gained exposure to real-world business problems,
+              industry practices, and professional mentorship.
+            </p>
+            <div class="tl-tags">
+              <span>Technology</span><span>Innovation</span><span>Data-Driven</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Aug — Sep 2025</div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <div>
+                <h3>Data Science & NLP Intern</h3>
+                <span class="tl-company">INOSENS Information Technologies Ltd. — Kocaeli/Gebze</span>
+              </div>
+              <span class="tl-badge hybrid">Hybrid</span>
+            </div>
+            <p class="tl-role">Data Science and NLP Department</p>
+            <p class="tl-desc">
+              Developed Turkish NLP preprocessing pipelines using Zemberek. Applied data augmentation
+              and feature engineering to improve sentiment classification. Trained and evaluated ML/DL
+              models with TensorFlow, PyTorch, and scikit-learn.
+            </p>
+            <div class="tl-tags">
+              <span>NLP</span><span>Python</span><span>TensorFlow</span><span>PyTorch</span><span>Zemberek</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Jun — Jul 2025</div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <div>
+                <h3>Software Developer Intern</h3>
+                <span class="tl-company">VBT Software Inc. — Istanbul/Ataşehir</span>
+              </div>
+              <span class="tl-badge remote">Remote</span>
+            </div>
+            <p class="tl-role">Software Development Department</p>
+            <p class="tl-desc">
+              Received technical training and mentorship from experienced software engineers.
+              Gained exposure to professional software development practices and modern development
+              workflows within an enterprise software engineering team.
+            </p>
+            <div class="tl-tags">
+              <span>Software Development</span><span>Professional Practices</span><span>Mentorship</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Projects</span>
+        <h2>What I've Built</h2>
+      </div>
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ai">AI / LLM</button>
+        <button class="filter-btn" data-filter="backend">Backend</button>
+        <button class="filter-btn" data-filter="ml">ML / Data</button>
+      </div>
+      <div class="projects-grid">
+
+        <!-- AI / LLM -->
+        <div class="project-card reveal featured" data-category="ai">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-file-alt"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/zeynepuguz/Data-Document-AI-Assistant" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="featured-badge">Featured</div>
+          <h3>Data Document AI Assistant</h3>
+          <p>AI-powered document assistant using Retrieval-Augmented Generation (RAG) to enable semantic search and Q&A over documents. Implements document indexing, vector embeddings, and contextual retrieval to improve response accuracy.</p>
+          <div class="project-stack">
+            <span>Python</span><span>RAG</span><span>LangChain</span><span>Vector DB</span><span>LLM</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal featured" data-category="backend">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-bolt"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/zeynepuguz/LLM-FastAPI-Serving" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="featured-badge">Featured</div>
+          <h3>LLM FastAPI Service</h3>
+          <p>Production-ready FastAPI backend that serves LLM functionalities via REST APIs. Handles model inference, async request-response workflows, and API integration at scale.</p>
+          <div class="project-stack">
+            <span>Python</span><span>FastAPI</span><span>LLM</span><span>REST API</span><span>Async</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="ai">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-chart-bar"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/zeynepuguz/AI-DuckDB-Analytics" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>AI Data Analyst Agent</h3>
+          <p>AI-driven assistant that interprets natural language queries to generate data insights and visualizations. Integrates LLM APIs with data processing pipelines to automate exploratory data analysis.</p>
+          <div class="project-stack">
+            <span>Python</span><span>DuckDB</span><span>LLM</span><span>NL2SQL</span><span>Visualization</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="ai">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-robot"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/zeynepuguz/Medication-Chatbot" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Medication Chatbot</h3>
+          <p>Intelligent chatbot for medication-related queries. Uses NLP and LLMs to provide accurate, context-aware responses about medications and health information.</p>
+          <div class="project-stack">
+            <span>Python</span><span>NLP</span><span>LLM</span><span>Chatbot</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal featured" data-category="ai">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-briefcase"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/zeynepuguz/Job-Application-AI" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="featured-badge">Featured</div>
+          <h3>Job Application AI CRM</h3>
+          <p>AI-powered job application management system. Automates and streamlines the job application workflow using intelligent matching and tracking capabilities.</p>
+          <div class="project-stack">
+            <span>Python</span><span>AI</span><span>CRM</span><span>Automation</span>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="project-card reveal featured" data-category="backend">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-comments"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/zeynepuguz/InsightHub" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="featured-badge">Featured</div>
+          <h3>InsightHub — Data Analytics Platform</h3>
+          <p>Full-stack data analytics and reporting platform with a Spring Boot backend and React frontend to manage and visualize structured data, supporting data entry, analysis, and reporting workflows.</p>
+          <div class="project-stack">
+            <span>Java</span><span>Spring Boot</span><span>MySQL</span><span>Thymeleaf</span><span>Maven</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="backend">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-book"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/zeynepuguz/KutuphaneSistemi" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Library Management System</h3>
+          <p>Desktop Java application implementing six design patterns for library operations management. Supports personnel and student roles with PostgreSQL persistence.</p>
+          <div class="project-stack">
+            <span>Java</span><span>Swing</span><span>PostgreSQL</span><span>JDBC</span><span>Design Patterns</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="backend">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/zeynepuguz/e-ticaret-sitesi" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>E-Commerce Website</h3>
+          <p>Responsive e-commerce platform featuring user authentication, product filtering, dynamic cart management, and payment processing built with PHP and MySQL.</p>
+          <div class="project-stack">
+            <span>PHP</span><span>MySQL</span><span>HTML/CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <!-- ML / Data -->
+        <div class="project-card reveal" data-category="ml">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-comment-dots"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/zeynepuguz/Turkish-Sentiment-Analysis-with-Deep-Learning-LSTM-Models-" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Turkish Sentiment Analysis (ML & Deep Learning)</h3>
+          <p>ML and deep learning models for Turkish sentiment classification using preprocessing pipelines, feature engineering, and training with TensorFlow and PyTorch. Evaluated performance through comparative experiments and model evaluation metrics.</p>
+          <div class="project-stack">
+            <span>Python</span><span>TensorFlow</span><span>Keras</span><span>LSTM</span><span>Zemberek</span><span>FastAPI</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="ml">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-car"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/zeynepuguz/Used-Car-Price-Prediction" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Used Car Price Prediction</h3>
+          <p>Regression-based ML model for used car price estimation including exploratory data analysis, quantile regression for price range prediction, and SHAP-based model interpretability.</p>
+          <div class="project-stack">
+            <span>Python</span><span>Scikit-learn</span><span>SHAP</span><span>Pandas</span><span>Seaborn</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="ml">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/zeynepuguz/Ai-Risk-System" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>AI Risk Analysis System</h3>
+          <p>Machine learning model for risk prediction and analysis. Provides intelligent risk assessment using supervised learning techniques and predictive modeling.</p>
+          <div class="project-stack">
+            <span>Python</span><span>ML</span><span>Risk Analysis</span><span>Prediction</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="ml">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-brain"></i></div>
+            <div class="project-links">
+              <a href="https://www.kaggle.com/code/zeynepuuz/turkceduyguanalizaraci" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Turkish Sentiment Analysis (ML)</h3>
+          <p>ML-based Turkish sentiment classifier using Random Forest with TF-IDF features and SMOTE class balancing. Achieves robust performance on imbalanced Turkish text datasets.</p>
+          <div class="project-stack">
+            <span>Python</span><span>Scikit-learn</span><span>TF-IDF</span><span>SMOTE</span><span>Random Forest</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="projects-more">
+        <a href="https://github.com/zeynepuguz" target="_blank" class="btn btn-outline">
+          <i class="fab fa-github"></i> View All on GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Achievements</span>
+        <h2>Competitions & Awards</h2>
+      </div>
+      <div class="achievements-grid">
+
+        <div class="achievement-card reveal">
+          <div class="ach-rank gold">2nd</div>
+          <div class="ach-content">
+            <h3>Big Idea Hackathon</h3>
+            <p class="ach-org">weepay & Kırklareli University AI and Data Science Club</p>
+            <p class="ach-desc">
+              Competed in a technology and innovation hackathon, earning 2nd place with a data-driven solution.
+            </p>
+            <div class="ach-medal"><i class="fas fa-medal"></i> 2nd Place</div>
+          </div>
+        </div>
+
+        <div class="achievement-card reveal">
+          <div class="ach-rank silver">8th</div>
+          <div class="ach-content">
+            <h3>TEKNOFEST Smart Transportation</h3>
+            <p class="ach-org">TEKNOFEST — National Competition, Turkey</p>
+            <p class="ach-desc">
+              Developed a smart transportation solution and ranked 8th nationally in Turkey's largest technology festival.
+            </p>
+            <div class="ach-medal"><i class="fas fa-trophy"></i> 8th in Turkey</div>
+          </div>
+        </div>
+
+        <div class="achievement-card reveal">
+          <div class="ach-rank bronze">7th</div>
+          <div class="ach-content">
+            <h3>TEKNOFEST Blockchain Traceability</h3>
+            <p class="ach-org">TEKNOFEST — National Competition, Turkey</p>
+            <p class="ach-desc">
+              Built a blockchain-based product traceability system, ranking 7th nationally among hundreds of teams.
+            </p>
+            <div class="ach-medal"><i class="fas fa-trophy"></i> 7th in Turkey</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Contact</span>
+        <h2>Let's Work Together</h2>
+        <p class="section-sub">I'm open to new opportunities, collaborations, and interesting projects.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <span class="contact-label">Email</span>
+              <a href="mailto:zeynppuguzz4@gmail.com">zeynppuguzz4@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <span class="contact-label">Location</span>
+              <span>Gebze / Kocaeli, Turkey</span>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://github.com/zeynepuguz" target="_blank" class="social-link">
+              <i class="fab fa-github"></i><span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/zeynepuguz" target="_blank" class="social-link">
+              <i class="fab fa-linkedin"></i><span>LinkedIn</span>
+            </a>
+            <a href="https://medium.com/@zeynepuguz" target="_blank" class="social-link">
+              <i class="fab fa-medium"></i><span>Medium</span>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="What's this about?" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-logo">ZU<span>.</span></span>
+      <p>Built with care by Zeynep Uğuz &copy; 2025</p>
+      <div class="footer-links">
+        <a href="https://github.com/zeynepuguz" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/zeynepuguz" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://medium.com/@zeynepuguz" target="_blank"><i class="fab fa-medium"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
