@@ -56,9 +56,9 @@ mobileMenu.querySelectorAll('a').forEach(a => {
 const phrases = [
   'AI Engineer (Backend)',
   'LLM & RAG Architect',
+  'Backend API Developer',
   'Multi-Agent Systems Builder',
   'NLP & ML Practitioner',
-  'AI Application Developer',
 ];
 
 let phraseIndex = 0;
